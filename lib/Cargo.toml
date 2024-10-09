@@ -32,7 +32,7 @@ wasm = ["wasmtime", "wasmtime-c-api"]
 regex.workspace = true
 
 [dependencies.wasmtime]
-version = "18.0.1"
+version = "21.0.2"
 optional = true
 default-features = false
 features = ["cranelift"]
